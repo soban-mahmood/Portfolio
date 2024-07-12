@@ -16,13 +16,16 @@ function Hero1() {
         >
           <div className=" xl:w-1/2 lg:w-full md:w-full sm:w-full">
             <p className="text-white font-bold  sm:w-full sm:text-[20px]  md:w-full md:text-[25px]  lg:w-full lg:text-[30px] xl:text-[30px] ">
-              Hi, I'm Soban <br /><span className="text-[#F4C32C]">Frontend Developer</span>
+              Hi, I'm Soban <br />
+              <span className="text-[#F4C32C]">Frontend Developer</span>
             </p>
+            <p className="text-gray-400   sm:text-[13px] sm:w-full md:text-[16px] md:w-full lg:text-[20px] lg:w-full xl:text-[20px] "></p>
             <p className="text-gray-400   sm:text-[13px] sm:w-full md:text-[16px] md:w-full lg:text-[20px] lg:w-full xl:text-[20px] ">
-            
-            </p>
-            <p className="text-gray-400   sm:text-[13px] sm:w-full md:text-[16px] md:w-full lg:text-[20px] lg:w-full xl:text-[20px] ">
-            I am a skilled Front-End Developer with expertise in React.js, responsible for <br /> implementing interactive and visually appealing user interfaces.  With a strong <br /> foundation in HTML, CSS, and JavaScript, I focus on creating responsive and <br /> high-performance web applications.
+              I am a skilled Front-End Developer with expertise in React.js,
+              responsible for implementing interactive and visually appealing
+              user interfaces. With a strong foundation in HTML, CSS, and
+              JavaScript, I focus on creating responsive and <br />{" "}
+              high-performance web applications.
             </p>
             <div
               data-aos="flip-left"
@@ -34,7 +37,7 @@ function Hero1() {
                 <a href="https://github.com/soban-mahmood"> GitHub</a>
               </button>
 
-              <button className="text-[#Ffff] border border-[#F4C32C] py-2 px-6 rounded-full hover:border-[#000] ">
+              <button className="text-[#Ffff] border  py-2 px-6 rounded-full hover:border-[#F4C32C] ">
                 <a href="https://www.linkedin.com/in/soban-mehmood/">
                   LinkedIn
                 </a>

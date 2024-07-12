@@ -44,7 +44,7 @@ function Header() {
           Instagram
         </a>
       </div>
-      <div className="gap-2 md:hidden sm:hidden lg:hidden   md:hidden-2">
+      <div className="gap-2 md:hidden sm:hidden lg:hidden md:hidden-2">
         <div className="flex gap-2">
           <a href="https://wa.me/923340704343">
             {" "}
@@ -57,7 +57,7 @@ function Header() {
         </div>
       </div>
       <div
-        className=" xl:hidden lg:block p-2 bg-[#3B5D4F] text-white"
+        className=" xl:hidden lg:block p-2 bg-[#F4C32C] text-white"
         onClick={handleCross}
       >
         <MdMenu className="text-[3vh] " />
@@ -65,52 +65,40 @@ function Header() {
 
       <div
         id="navLog"
-        className=" fixed bg-[#3b5d4f] inset-0  p-2   hidden"
+        className=" fixed bg-[#000] inset-0  p-2   hidden"
         onClick={handleCross}
       >
         <div className="flex justify-between">
           <a href="#" className="text-[3vh] font-bold">
-            Furni.
+           Soban Mehmood
           </a>
           <RxCross2 className="text-[3vh] mt-2 md:block lg:block" />
         </div>
 
         <div className="flex flex-col">
           <a
-            href=""
+            href="https://github.com/soban-mahmood"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-            Home
+         GitHub
           </a>
           <a
-            href="/shop"
+            href="https://www.linkedin.com/in/soban-mehmood/"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-            Shop
+          LinkedIn
           </a>
           <a
-            href="/about"
+           href="https://wa.me/923340704343"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-            About us
+         Whatsapp
           </a>
           <a
             href="/services"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
             Services
-          </a>
-          <a
-            href="/blog"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
-          >
-            Blog
-          </a>
-          <a
-            href="/contact"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
-          >
-            Contact us
           </a>
         </div>
       </div>
