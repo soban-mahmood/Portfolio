@@ -9,7 +9,7 @@ function Hero1() {
           className="  bg-[#000] xl:flex xl:justify-evenly xl:px-10  xl:items-center lg:flex lg:flex-col lg:justify-between lg:p-20 
                                          md:flex md:flex-col md:justify-between md:p-20 sm:p-10"
         >
-          <div className=" xl:w-1/2 lg:w-full md:w-full sm:w-full">
+          <div className=" xl:w-1/2  lg:w-full md:w-full sm:w-full">
             <p className="text-white font-bold  sm:w-full sm:text-[20px]  md:w-full md:text-[25px]  lg:w-full lg:text-[30px] xl:text-[30px] ">
               Hi, I'm Soban <br />
               <span className="text-[#F4C32C]">Frontend Developer</span>
