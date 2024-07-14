@@ -1,5 +1,5 @@
 import React from "react";
-const logo = "../../public/bg (1).png";
+const logo = "./bg (1).png";
 
 
 function Hero1() {
