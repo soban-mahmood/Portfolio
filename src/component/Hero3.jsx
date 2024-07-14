@@ -1,9 +1,22 @@
 import React from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  once: false,
+  mirror: false,
+});
 function Hero3() {
   return (
     <div>
-      <div>
+      <div 
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        // data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
         <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center text-white">
           <div className="flex flex-col flex-wrap">
             <div className="">

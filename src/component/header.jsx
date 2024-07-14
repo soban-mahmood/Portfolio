@@ -1,6 +1,6 @@
 import React from "react";
 import { MdMenu } from "react-icons/md";
-import { CiShoppingCart } from "react-icons/ci";
+import { FaArrowAltCircleDown } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
 import { GrLinkedin } from "react-icons/gr";
@@ -45,15 +45,16 @@ function Header() {
         </a>
       </div>
       <div className="gap-2 md:hidden sm:hidden lg:hidden md:hidden-2">
-        <div className="flex gap-2">
+        <div className="flex gap-5">
           <a href="https://wa.me/923340704343">
             {" "}
             <FaWhatsapp className="text-[3vh] font-bold text-[#39eb39]" />
           </a>
 
           <a href="https://www.linkedin.com/in/soban-mehmood/">
-            <GrLinkedin  className="text-[3vh] font-bold text-[#3838d4] bg-white rounded" />
+            <GrLinkedin className="text-[3vh] font-bold text-[#3838d4] bg-white rounded" />
           </a>
+        
         </div>
       </div>
       <div
@@ -70,7 +71,7 @@ function Header() {
       >
         <div className="flex justify-between">
           <a href="#" className="text-[3vh] font-bold">
-           Soban Mehmood
+            Soban Mehmood
           </a>
           <RxCross2 className="text-[3vh] mt-2 md:block lg:block" />
         </div>
@@ -80,25 +81,32 @@ function Header() {
             href="https://github.com/soban-mahmood"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-         GitHub
+            GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/soban-mehmood/"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-          LinkedIn
+            LinkedIn
           </a>
           <a
-           href="https://wa.me/923340704343"
+            href="https://wa.me/923340704343"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
-         Whatsapp
+            Whatsapp
           </a>
           <a
             href="/services"
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
           >
             Services
+          </a>
+          <a
+            href="../../final cv.pdf"
+            download
+            className="font-medium hover:border-b-2 border-[#F4C32C] m-4 "
+          >
+            Download Resume
           </a>
         </div>
       </div>

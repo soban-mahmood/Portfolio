@@ -1,11 +1,7 @@
 import React from "react";
 const logo = "../../public/profile.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init({
-  once: false,
-  mirror: false,
-});
+
+
 function Hero1() {
   return (
     <div>
@@ -28,9 +24,7 @@ function Hero1() {
               high-performance web applications.
             </p>
             <div
-              data-aos="flip-left"
-              data-aos-easing="ease-in-out"
-              data-aos-duration="2000"
+         
               className="flex gap-4  py-5"
             >
               <button className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-2 ">
@@ -41,6 +35,16 @@ function Hero1() {
                 <a href="https://www.linkedin.com/in/soban-mehmood/">
                   LinkedIn
                 </a>
+              </button>
+
+              <button>
+              <a
+            href="../../final cv.pdf"
+            download
+            className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-3 "
+          >
+            Download Resume
+          </a>
               </button>
             </div>
           </div>
