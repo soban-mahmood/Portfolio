@@ -11,7 +11,7 @@ AOS.init({
 function Hero2() {
   return (
     <div className=" text-white" 
-    data-aos="fade-left"
+    data-aos="fade-up"
     data-aos-offset="100"
     data-aos-delay="20"
     data-aos-duration="1000"

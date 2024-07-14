@@ -1,5 +1,5 @@
 import React from "react";
-const logo = "../../public/profile.png";
+const logo = "../../public/bg (1).png";
 
 
 function Hero1() {
@@ -25,7 +25,7 @@ function Hero1() {
             </p>
             <div
          
-              className="flex gap-4  py-5"
+              className="flex gap-4  py-5 flex-wrap"
             >
               <button className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-2 ">
                 <a href="https://github.com/soban-mahmood"> GitHub</a>
@@ -50,7 +50,7 @@ function Hero1() {
           </div>
           <div className="xl:w-1/2 sm:w-full md:w-full lg:w-full ">
             <img
-              className="h-full w-full object-cover"
+              className="h-[100%] w-[80%] object-cover rounded-full"
               src={logo}
               alt="image description"
             />
