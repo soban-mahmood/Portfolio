@@ -1,6 +1,5 @@
 import React from "react";
-const logo = "./bg (1).png";
-
+const logo = "../../public/images/logo.png";
 
 function Hero1() {
   return (
@@ -23,10 +22,7 @@ function Hero1() {
               JavaScript, I focus on creating responsive and <br />{" "}
               high-performance web applications.
             </p>
-            <div
-         
-              className="flex gap-4  py-5 flex-wrap"
-            >
+            <div className="flex gap-4  py-5 flex-wrap">
               <button className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-2 ">
                 <a href="https://github.com/soban-mahmood"> GitHub</a>
               </button>
@@ -38,19 +34,19 @@ function Hero1() {
               </button>
 
               <button>
-              <a
-            href="../../final cv.pdf"
-            download
-            className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-3 "
-          >
-            Download Resume
-          </a>
+                <a
+                  href="../../final cv.pdf"
+                  download
+                  className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-3 "
+                >
+                  Download Resume
+                </a>
               </button>
             </div>
           </div>
           <div className="xl:w-1/2 sm:w-full md:w-full lg:w-full ">
             <img
-              className="h-[100%] w-[80%] object-cover rounded-full"
+              className="h-[100%] w-[80%] object-cover rounded-full bg-red-400"
               src={logo}
               alt="image description"
             />
