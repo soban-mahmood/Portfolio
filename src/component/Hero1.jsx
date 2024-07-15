@@ -1,5 +1,5 @@
 import React from "react";
-const logo = "../../public/images/logo.png";
+const logo ="../../public/bg (1).png";
 
 function Hero1() {
   return (
@@ -46,7 +46,7 @@ function Hero1() {
           </div>
           <div className="xl:w-1/2 sm:w-full md:w-full lg:w-full ">
             <img
-              className="h-[100%] w-[80%] object-cover rounded-full bg-red-400"
+              className="h-[100%] w-[80%] object-cover rounded-full"
               src={logo}
               alt="image description"
             />
