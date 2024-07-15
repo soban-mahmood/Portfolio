@@ -96,12 +96,6 @@ function Header() {
             Whatsapp
           </a>
           <a
-            href="/services"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
-          >
-            Services
-          </a>
-          <a
             href="../../final cv.pdf"
             download
             className="font-medium hover:border-b-2 border-[#F4C32C] m-4 "
