@@ -35,7 +35,7 @@ function Hero1() {
 
               <button>
                 <a
-                  href="../../final cv.pdf"
+                  href="../../public/Professional Modern CV Resume.pdf"
                   download
                   className="bg-[#F4C32C] text-black  rounded-full  hover:border-black border-[1px] px-6 py-3 "
                 >
