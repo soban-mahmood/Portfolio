@@ -4,7 +4,7 @@ import logo from '../../public/bg (1).png'
 function Hero1() {
   return (
     <div>
-      <div className="border-t border-gray-500">
+      <div className="border-t border-gray-500 h-screen">
         <div
           className="  bg-[#000] xl:flex xl:justify-evenly xl:px-10  xl:items-center lg:flex lg:flex-col lg:justify-between lg:p-20 
                                          md:flex md:flex-col md:justify-between md:p-20 sm:p-10"
