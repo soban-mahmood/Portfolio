@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../public/html.png'
+import logo2 from '../../public/css-removebg-preview.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -20,13 +21,13 @@ function Hero3() {
         data-aos-anchor-placement="top-center">
         <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center xl:justify-center text-white">
           <div className="flex flex-col flex-wrap ">
-            <div className="">
+            <div className="items-center">
               <p className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]">
                 Skills
               </p>
             </div>
 
-            <div className=" sm:flex sm:flex-col ">
+            <div className=" sm:flex sm:flex-col flex ">
               <div className=" sm:w-full ">
                 <p className="font-semibold text-[20px] sm:text-[16px]  gap-2 ">
                 <span>
@@ -39,11 +40,7 @@ function Hero3() {
               </div>
               <div className=" sm:w-full mt-4">
                 <p className="font-semibold text-[20p] flex gap-2">
-                  Cascading Style Sheets (Css)
-                  <span>
-                    90%
-                  
-                  </span>
+                  <img src={logo2} alt="" />
                 </p>
               </div>
               <div className=" sm:w-full mt-4">
