@@ -23,7 +23,7 @@ function Hero2() {
         <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center">
           <div className="flex flex-col flex-wrap">
             <div className="">
-              <h2 className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#F4C32C]">
+              <h2 className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]">
                 Work Experience
               </h2>
             </div>
@@ -32,7 +32,7 @@ function Hero2() {
               <div className=" sm:w-full xl:mr-4">
                 <h3 className="font-semibold text-[20px] sm:text-[16px] flex gap-2">
                   Corvit System | Faisalabad
-                  <IoSchool className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#F4C32C] " />
+                  <IoSchool className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF] " />
                   <a href="https://corvitfsd.com/">corvitfsd.com</a>
                 </h3>
                 <span>Web Developer</span>
@@ -47,7 +47,7 @@ function Hero2() {
                 {/* <img src={logo4} alt="" /> */}
                 <h3 className="font-semibold text-[20p flex gap-2">
                   Vonix-soft | Faisalabad
-                  <FaHouseUser className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#F4C32C]" />
+                  <FaHouseUser className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]" />
                   <a href="https://www.linkedin.com/company/vonixsoft/mycompany/">
                     @vonix-soft
                   </a>
@@ -64,7 +64,7 @@ function Hero2() {
                 {/* <img src={logo4} alt="" /> */}
                 <h3 className="font-semibold text-[20p flex gap-2 ">
                   Digix Well | Faisalabad
-                  <BsFillHouseAddFill className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#F4C32C]" />
+                  <BsFillHouseAddFill className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]" />
                   <a href="https://www.linkedin.com/in/digix-well/">
                     @digixwell
                   </a>
@@ -82,7 +82,7 @@ function Hero2() {
                 {/* <img src={logo4} alt="" /> */}
                 <h3 className="font-semibold text-[20p flex gap-2">
                   Code Alpha
-                  <FaHouseUser className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#F4C32C]" />
+                  <FaHouseUser className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]" />
                   <a href="https://www.linkedin.com/company/codealpha/posts/?feedView=all">
                     @codealpha
                   </a>
