@@ -20,25 +20,25 @@ function Header() {
       <div className=" md:hidden sm:hidden lg:hidden   ">
         <a
           href=""
-          className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+          className="font-medium hover:border-b-2 border-[#3838d4] m-4"
         >
           <a href="https://github.com/soban-mahmood"> GitHub</a>
         </a>
         <a
           href=""
-          className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+          className="font-medium hover:border-b-2 border-[#3838d4] m-4"
         >
           <a href="https://www.linkedin.com/in/soban-mehmood/">LinkedIn</a>
         </a>
         <a
           href=""
-          className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+          className="font-medium hover:border-b-2 border-[#3838d4] m-4"
         >
           <a href="https://wa.me/923340704343"> Whatsapp</a>
         </a>
         <a
           href="https://www.instagram.com/itx_soban_mehmood_official/"
-          className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+          className="font-medium hover:border-b-2 border-[#3838d4] m-4"
         >
           Instagram
         </a>
@@ -57,7 +57,7 @@ function Header() {
         </div>
       </div>
       <div
-        className=" xl:hidden lg:block p-2 bg-[#F4C32C] text-white"
+        className=" xl:hidden lg:block p-2 bg-[#3838d4] text-white"
         onClick={handleCross}
       >
         <MdMenu className="text-[3vh] " />
@@ -78,26 +78,26 @@ function Header() {
         <div className="flex flex-col">
           <a
             href="https://github.com/soban-mahmood"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+            className="font-medium hover:border-b-2 border-[#3838d4] m-4"
           >
             GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/soban-mehmood/"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+            className="font-medium hover:border-b-2 border-[#3838d4] m-4"
           >
             LinkedIn
           </a>
           <a
             href="https://wa.me/923340704343"
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4"
+            className="font-medium hover:border-b-2 border-[#3838d4] m-4"
           >
             Whatsapp
           </a>
           <a
             href="../../final cv.pdf"
             download
-            className="font-medium hover:border-b-2 border-[#F4C32C] m-4 "
+            className="font-medium hover:border-b-2 border-[#3838d4] m-4 "
           >
             Download Resume
           </a>
