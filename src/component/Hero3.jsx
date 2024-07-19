@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../public/HTML-removebg-preview.png";
-import logo2 from "../../public/CSS-removebg-preview.png";
+import logo2 from "../../public/css-removebg-preview.png";
 import logo3 from "../../public/JS-removebg-preview.png";
 import logo4 from "../../public/Tailwind-removebg-preview.png";
 import logo5 from "../../public/React-removebg-preview.png";
