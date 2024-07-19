@@ -13,9 +13,10 @@ function Header() {
   return (
     <nav className="p-2 xl:flex xl:justify-evenly xl:items-center xl-w-full  lg:flex lg:justify-between  md:flex md:justify-between  bg-[#1E293B] text-white  sm:flex sm:justify-between sm:w-full ">
       <div id="navbrand" className="">
-        <a href="/" className="text-[3vh] font-bold text-[#fff]">
-          Soban Mehmood
+        <a href="/" className="text-[3vh] font-bold mr-2 text-[#3838d4]">
+          Soban 
         </a>
+          <span className="text-[#fff] text-[3vh]  ">Mehmood</span>
       </div>
       <div className=" md:hidden sm:hidden lg:hidden   ">
         <a
