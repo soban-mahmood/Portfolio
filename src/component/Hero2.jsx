@@ -89,7 +89,7 @@ function Hero2() {
                 </h3>
                 <span>React-JS Developer</span>
                 <p className="text-gray-600 ">
-                  Starting a new postion at Code alpha as a Frontend Developer
+                  Starting a new position at Code alpha as a Frontend Developer
                   with a Giving Services on ReactJs is a commendable
                   achievement.
                 </p>
