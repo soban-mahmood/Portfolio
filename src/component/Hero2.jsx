@@ -72,10 +72,10 @@ function Hero2() {
                 <span>React-JS Developer</span>
                 <p className="text-gray-600 ">
                   Part Time Frontend Developer using Reactjs and their Core
-                  Concepts To deliver The Dynamic user Interfaces.
+                  Concepts To deliver The Dynamic user Interfaces.&
                 </p>
                 <p className="text-gray-600 ">
-                  Work as a Seniour WrodPress developer
+                  Work as a Senior WordPress developer
                 </p>
               </div>
               <div className=" sm:w-full mt-4">
