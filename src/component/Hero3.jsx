@@ -17,8 +17,8 @@ function Hero3() {
       <div
         data-aos="fade-up"
         data-aos-offset="100"
-        data-aos-delay="20"
-        data-aos-duration="1000"
+        data-aos-delay="10"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
         // data-aos-mirror="true"
         data-aos-once="false"
