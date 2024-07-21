@@ -29,7 +29,7 @@ function Hero4() {
                 </p>
                 <span>
                   <a href="https://ochi-clone-ayh9hw622-soban-mehmoods-projects.vercel.app/">
-                  https://ochi-clone-sigma.vercel.app/
+                  https://ochi-clone-one.vercel.app/
                   </a>
                 </span>
               </div>
