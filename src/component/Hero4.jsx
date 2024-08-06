@@ -4,7 +4,7 @@ function Hero4() {
   return (
     <div>
       <div>
-        <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center text-white">
+        {/* <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center text-white">
           <div className="flex flex-col flex-wrap">
             <div className="">
               <p className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]">
@@ -63,9 +63,20 @@ function Hero4() {
                   </a>
                 </span>
               </div>
+              <div className=" sm:w-full mt-4">
+                <p className="font-semibold text-[20px] sm:text-[16px] flex gap-2 flex-row">
+               Admin Dashed Board
+
+                </p>
+                <span>
+                  <a href="https://admin-eta-jade.vercel.app/">
+                  https://admin-eta-jade.vercel.app/
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
