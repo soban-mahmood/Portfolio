@@ -13,7 +13,7 @@ function MediaCard() {
     <>
       <div className="mb-20">
         <h1 className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF] m-20">
-          Project
+          Projects
         </h1>
         <div className="flex justify-evenly rounded-lg flex-wrap gap-10">
           {Project.map((project) => (
