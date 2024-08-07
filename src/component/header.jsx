@@ -11,7 +11,7 @@ function Header() {
     navLog.classList.toggle("hidden");
   };
   return (
-    <nav className="p-2 xl:flex xl:justify-evenly xl:items-center xl-w-full  lg:flex lg:justify-between  md:flex md:justify-between  bg-[#1E293B] text-white  sm:flex sm:justify-between sm:w-full ">
+    <nav className="p-2 xl:flex xl:justify-between px-[3vw] xl:items-center xl-w-full  lg:flex lg:justify-between  md:flex md:justify-between  bg-[#1E293B] text-white  sm:flex sm:justify-between sm:w-full ">
       <div id="navbrand" className="">
         <a href="/" className="text-[3vh] font-bold mr-2 text-[#3838d4]">
           Soban 

@@ -6,6 +6,7 @@ import Hero2 from './component/Hero2'
 import Hero3 from './component/Hero3'
 // import Hero4 from './component/Hero4'
 import MediaCard from './component/MediaCard'
+import Footer from './component/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 <Hero3/>
 {/* <Hero4/> */}
 <MediaCard/>
+<Footer/>
 </>
   )
 }

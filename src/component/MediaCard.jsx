@@ -11,11 +11,11 @@ function MediaCard() {
   console.log(Project.link);
   return (
     <>
-      <div className="mb-20">
-        <h1 className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF] m-20">
+      <div className="mb-10 sm:px-5">
+        <h1 className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF] xl:m-10 sm:m-5 ">
           Projects
         </h1>
-        <div className="flex justify-evenly rounded-lg flex-wrap gap-10">
+        <div className="flex p-10 rounded-lg flex-wrap gap-10">
           {Project.map((project) => (
             <Card sx={{ maxWidth: 400 }} key={project.name}>
               <CardMedia
@@ -23,11 +23,11 @@ function MediaCard() {
                 alt={project.name}
                 image={project.image}
               />
-              <CardContent>
+              <CardContent >
                 <Typography gutterBottom variant="h5" component="div" >
                   {project.name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" >
                   <a
                     href={project.link}
                     target="_blank"

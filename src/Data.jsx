@@ -3,7 +3,7 @@ import admin from '../public/admin.png'
 import Furni from '../public/Furni .png'
 import sundown from '../public/sundown.png'
 import spotify from '../public/spotify.png'
-
+import Ochi from '../public/ochi.png'
 const Project = [
     {
         name: 'Admin Dashboard',
@@ -27,7 +27,13 @@ const Project = [
         name: 'Spotify Clone',
         image: spotify,
         link: 'https://soban-mahmood.github.io/Spotify-clone/',
-        desc: 'The Spotify Clone is a web application built using HTML, CSS, and JavaScript, designed to mimic the core features and user interface of the popular music streaming service, Spotify. This project aims to provide a functional and visually appealing music player that allows users to browse, search, and play their favorite songs and playlists.'
+        desc: 'The Spotify Clone is a web application built using HTML, CSS, and JavaScript, designed to mimic the core features and user interface of the popular music streaming service, Spotify. This project aims to provide a functional and visually appealing music player.'
+    },
+    {
+        name: 'Ochi webdesign',
+        image: Ochi,
+        link: 'https://ochi-clone-one.vercel.app/',
+        desc: 'Developed Ochi Design, a modern, responsive website using React.js and Tailwind CSS.Implemented interactive UI components for seamless navigation,'
     },
 ];
 
