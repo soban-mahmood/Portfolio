@@ -35,7 +35,7 @@ function Hero1() {
 
               <button>
                 <a
-                  href="../../public/cv.pdf"
+                  href="final.pdf"
                   download
                   className="bg-[#0788FF] text-white  rounded-full  hover:border-black border-[1px] px-6 py-3 "
                 >
