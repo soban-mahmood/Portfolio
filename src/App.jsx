@@ -4,8 +4,8 @@ import Hero1 from './component/Hero1'
 
 import Hero2 from './component/Hero2'
 import Hero3 from './component/Hero3'
-// import Hero4 from './component/Hero4'
-import MediaCard from './component/MediaCard'
+import Hero4 from './component/Hero4'
+// import MediaCard from './component/MediaCard'
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
 <Hero1/>
 <Hero2/>
 <Hero3/>
-{/* <Hero4/> */}
-<MediaCard/>
+<Hero4/>
+{/* <MediaCard/> */}
 </>
   )
 }

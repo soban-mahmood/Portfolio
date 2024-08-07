@@ -4,7 +4,7 @@ function Hero4() {
   return (
     <div>
       <div>
-        {/* <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center text-white">
+        <div className="w-full xl:flex   md:flex md:flex-col sm:flex sm:flex-col mt-10 p-10 items-center text-white">
           <div className="flex flex-col flex-wrap">
             <div className="">
               <p className="font-semibold xl:text-[2vw] sm:text-[20px] text-[#0788FF]">
@@ -76,7 +76,7 @@ function Hero4() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
