@@ -4,6 +4,7 @@ import Furni from '../public/Furni .png'
 import sundown from '../public/sundown.png'
 import spotify from '../public/spotify.png'
 import Ochi from '../public/ochi.png'
+import task from '../public/task.png'
 const Project = [
     {
         name: 'Admin Dashboard',
@@ -34,6 +35,12 @@ const Project = [
         image: Ochi,
         link: 'https://ochi-clone-one.vercel.app/',
         desc: 'Developed Ochi Design, a modern, responsive website using React.js and Tailwind CSS.Implemented interactive UI components for seamless navigation,'
+    },
+    {
+        name: 'TaskList',
+        image:task,
+        link: 'https://task-list-lac.vercel.app/',
+        desc: 'Completed task list in which i use firebase for authentication and for data storage and use moment.js for filter the the task according to the task submit date using ReactJs for main Frontend and tailwind css for styling .'
     },
 ];
 
